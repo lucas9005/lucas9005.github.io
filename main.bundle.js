@@ -635,7 +635,7 @@ module.exports = "<footer class=\"navbar navbar-default\">\n  <div class=\"conta
 /***/ 246:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>Galer&iacute;a</h1>\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-xs-12\">\n      <div class=\"col-xs-6 col-sm-4 col-lg-3\" *ngFor=\"let image of images\">\n        <button class=\"thumbnail\" (click)=\"setOpenedStateTrue(image.src, image.src)\">\n          <img src={{image.src}} alt={{image.src}}>\n        </button>\n      </div>\n      <div class=\"modal fade blur\" tabindex=\"-1\" [ngClass]=\"{in: openedState, display: openedState}\">\n        <img src={{openedSrc}} alt={{openedAlt}} (click)=\"setOpenedStateFalse()\">\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<h1>Galer&iacute;a</h1>\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-xs-12\">\n      <div class=\"col-xs-6 col-sm-4 col-lg-3\" *ngFor=\"let image of images\">\n        <button class=\"thumbnail\" (click)=\"setOpenedStateTrue(image.src, image.src)\">\n          <img src={{image.src}} alt={{image.src}}>\n        </button>\n      </div>\n      <div class=\"modal fade blur\" tabindex=\"-1\" [ngClass]=\"{in: openedState, display: openedState}\" (click)=\"setOpenedStateFalse()\">\n        <img src={{openedSrc}} alt={{openedAlt}}>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
