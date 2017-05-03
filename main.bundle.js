@@ -540,7 +540,7 @@ exports = module.exports = __webpack_require__(10)();
 
 
 // module
-exports.push([module.i, ".display {\n  display: block;\n  z-index: 1051; }\n\n.blur {\n  z-index: 1050;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100vw;\n  height: 100vh;\n  background-color: rgba(0, 0, 0, 0.75); }\n\n.modal-dialog {\n  margin-top: calc(50vh - 250px); }\n", ""]);
+exports.push([module.i, ".display {\n  width: 100vw;\n  height: 100vh;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n\n.display img {\n  max-width: 75vw; }\n\n.blur {\n  background-color: rgba(0, 0, 0, 0.75); }\n", ""]);
 
 // exports
 
@@ -635,7 +635,7 @@ module.exports = "<footer class=\"navbar navbar-default\">\n  <div class=\"conta
 /***/ 246:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>Galer&iacute;a</h1>\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-xs-12\">\n      <div class=\"col-xs-6 col-sm-4 col-lg-3\" *ngFor=\"let image of images\">\n        <button class=\"thumbnail\" (click)=\"setOpenedStateTrue(image.src, image.src)\">\n          <img src={{image.src}} alt={{image.src}}>\n        </button>\n      </div>\n      <div class=\"modal fade\" tabindex=\"-1\" [ngClass]=\"{in: openedState, display: openedState}\">\n        <div class=\"modal-dialog modal-lg\">\n          <div class=\"modal-content\">\n            <img class=\"col-xs-12\" src={{openedSrc}} alt={{openedAlt}} (click)=\"setOpenedStateFalse()\">\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"blur\" *ngIf=\"openedState\">\n</div>"
+module.exports = "<h1>Galer&iacute;a</h1>\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-xs-12\">\n      <div class=\"col-xs-6 col-sm-4 col-lg-3\" *ngFor=\"let image of images\">\n        <button class=\"thumbnail\" (click)=\"setOpenedStateTrue(image.src, image.src)\">\n          <img src={{image.src}} alt={{image.src}}>\n        </button>\n      </div>\n      <div class=\"modal fade blur\" tabindex=\"-1\" [ngClass]=\"{in: openedState, display: openedState}\">\n        <img src={{openedSrc}} alt={{openedAlt}} (click)=\"setOpenedStateFalse()\">\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
