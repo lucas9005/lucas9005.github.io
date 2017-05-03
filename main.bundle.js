@@ -522,7 +522,7 @@ exports = module.exports = __webpack_require__(10)();
 
 
 // module
-exports.push([module.i, "footer {\n  border-radius: 0px;\n  margin: 0px; }\n\np {\n  margin-top: 20px;\n  color: #4582ec; }\n\nli {\n  text-align: center; }\n\n.glyphicon {\n  font-size: 14px; }\n\n.btn-social-icon {\n  width: 40px;\n  height: 40px;\n  display: inline-block; }\n", ""]);
+exports.push([module.i, "footer {\n  border-radius: 0px;\n  margin: 0px; }\n  footer .container {\n    padding-right: 0px; }\n    footer .container li {\n      text-align: center; }\n      footer .container li p {\n        margin-top: 20px;\n        color: #4582ec; }\n        footer .container li p .glyphicon {\n          font-size: 14px; }\n      footer .container li .btn-social-icon {\n        width: 40px;\n        height: 40px;\n        display: inline-block; }\n", ""]);
 
 // exports
 
@@ -540,7 +540,7 @@ exports = module.exports = __webpack_require__(10)();
 
 
 // module
-exports.push([module.i, ".display {\n  width: 100vw;\n  height: 100vh;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n\n.display img {\n  max-width: 75vw; }\n\n.blur {\n  background-color: rgba(0, 0, 0, 0.75); }\n", ""]);
+exports.push([module.i, ".display {\n  width: 100vw;\n  height: 100vh;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .display img {\n    max-width: 75vw; }\n\n.blur {\n  background-color: rgba(0, 0, 0, 0.75); }\n", ""]);
 
 // exports
 
@@ -594,7 +594,7 @@ exports = module.exports = __webpack_require__(10)();
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, "nav .container {\n  padding-right: 0px; }\n", ""]);
 
 // exports
 
