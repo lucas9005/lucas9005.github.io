@@ -522,7 +522,7 @@ exports = module.exports = __webpack_require__(10)();
 
 
 // module
-exports.push([module.i, "footer {\n  border-radius: 0px;\n  margin: 0px; }\n  footer .container {\n    padding-right: 0px; }\n    footer .container li {\n      text-align: center; }\n      footer .container li p {\n        margin-top: 20px;\n        color: #4582ec; }\n        footer .container li p .glyphicon {\n          font-size: 14px; }\n      footer .container li .btn-social-icon {\n        width: 40px;\n        height: 40px;\n        display: inline-block; }\n", ""]);
+exports.push([module.i, "footer {\n  border-radius: 0px;\n  margin: 0px; }\n  footer li {\n    text-align: center; }\n    footer li p {\n      margin-top: 20px;\n      color: #4582ec; }\n      footer li p .glyphicon {\n        font-size: 14px; }\n    footer li .btn-social-icon {\n      width: 40px;\n      height: 40px;\n      display: inline-block; }\n", ""]);
 
 // exports
 
@@ -594,7 +594,7 @@ exports = module.exports = __webpack_require__(10)();
 
 
 // module
-exports.push([module.i, "nav .container {\n  padding-right: 0px; }\n", ""]);
+exports.push([module.i, "", ""]);
 
 // exports
 
